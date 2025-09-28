@@ -39,7 +39,6 @@
 ### Interactive Transaction List
 - Scrollable list of transactions
 - Copy transaction ID with a tap
-- Pull-to-refresh functionality
 
 ### Status Indicators
 - Connection status indicators with animated pulsing
@@ -113,7 +112,7 @@ Actors ensure **thread-safe state** and `AsyncStream` is used for streaming tran
 ### App Entry
 ```swift
 @main
-struct BTCWatchApp: App {
+struct CFAssignment: App {
     var body: some Scene {
         WindowGroup {
             AppCoordinator.makeRootView()
